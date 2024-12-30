@@ -1,0 +1,208 @@
+/* Container Styling */
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .title {
+    font-size: 2.5em;
+    color: #e74c3c;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* List Section Styling */
+  .list-section {
+    margin-bottom: 30px;
+  }
+  
+  /* List Heading Styling */
+  .list-heading {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  /* Unordered List Styling */
+  .unordered-list {
+    list-style-type: circle;
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  /* Ordered List Styling */
+  .ordered-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  /* Definition List Styling */
+  .definition-list dt {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .definition-list dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+/* List Item Styling */
+.unordered-list li,
+.ordered-list li {
+    color: #34495e;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* Center margin */
+}
+.unordered-list li,
+.ordered-list li {
+    color: #34495e;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.unordered-list li:hover,
+.ordered-list li:hover {
+    color: #e74c3c;
+    cursor: pointer;
+    background-color: #f1c40f;
+}
+.unordered-list li,
+.ordered-list li {
+    color: #34495e;
+}
+
+/* Hover Effect for List Items */
+.unordered-list li:hover,
+.ordered-list li:hover {
+    color: #e74c3c;
+    cursor: pointer;
+}
+/* Section Styling */
+.section {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease infinite;
+}
+
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-section {
+    margin-bottom: 20px;
+}
+
+.list-heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.unordered-list,
+.ordered-list,
+.definition-list {
+    margin-left: 20px;
+}
+div{
+    margin-left: 600px ;
+}
+#count
+{
+    margin-left: -50px;
+}
+/* Main container for centering */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(90deg, #f5d5a2, #d7a875); /* Gradient background */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Counter Section Styling */
+  .counter-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .counter-section h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .counter-section button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .counter-section button:hover {
+    background-color: #333;
+  }
+  
+  /* Input Section Styling */
+  .input-section {
+    text-align: center;
+  }
+  
+  .input-section input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .input-section p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
